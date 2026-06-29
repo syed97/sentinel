@@ -1,0 +1,55 @@
+# Default RSS sources for the Northeastern US pilot region
+# Teams can add to or remove from this list during configuration
+
+sources:
+  - url: "https://www.boston.com/rss/news"
+    label: "Boston Globe"
+    state: "MA"
+
+  - url: "https://www.wcvb.com/rss"
+    label: "WCVB Boston"
+    state: "MA"
+
+  - url: "https://www.nbcnewyork.com/feed/"
+    label: "NBC New York"
+    state: "NY"
+
+  - url: "https://www.ny1.com/nyc/all-boroughs/rss.xml"
+    label: "NY1 Spectrum News"
+    state: "NY"
+
+  - url: "https://www.wtnh.com/feed/"
+    label: "WTNH News 8 Connecticut"
+    state: "CT"
+
+  - url: "https://www.nj.com/rss/news/"
+    label: "NJ.com"
+    state: "NJ"
+
+  - url: "https://www.nbcphiladelphia.com/feed/"
+    label: "NBC10 Philadelphia"
+    state: "PA"
+
+  - url: "https://www.inquirer.com/rss/"
+    label: "Philadelphia Inquirer"
+    state: "PA"
+
+  - url: "https://www.wbal.com/rss/"
+    label: "WBAL Baltimore"
+    state: "MD"
+
+  - url: "https://www.washingtonpost.com/rss/local"
+    label: "Washington Post Local"
+    state: "DC"
+
+  - url: "https://www.nbcwashington.com/feed/"
+    label: "NBC4 Washington"
+    state: "DC"
+
+  - url: "https://www.nbc12.com/rss/"
+    label: "NBC12 Richmond"
+    state: "VA"
+
+  - url: "https://richmond.com/rss/"
+    label: "Richmond Times-Dispatch"
+    state: "VA"

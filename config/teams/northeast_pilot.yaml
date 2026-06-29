@@ -1,0 +1,96 @@
+# Sentinel Team Configuration
+# Northeastern US Pilot Team
+# Generated: June 2026
+
+team:
+  name: "Northeastern US Disaster Management"
+  id: null  # assigned on first load
+
+coverage:
+  counties:
+    - fips: "25025"
+      name: "Suffolk County"
+      state: MA
+    - fips: "25017"
+      name: "Middlesex County"
+      state: MA
+    - fips: "36055"
+      name: "Monroe County"
+      state: NY
+    - fips: "36001"
+      name: "Albany County"
+      state: NY
+    - fips: "36027"
+      name: "Dutchess County"
+      state: NY
+    - fips: "36059"
+      name: "Nassau County"
+      state: NY
+    - fips: "36005"
+      name: "Bronx County"
+      state: NY
+    - fips: "36081"
+      name: "Queens County"
+      state: NY
+    - fips: "36047"
+      name: "Kings County"
+      state: NY
+    - fips: "36061"
+      name: "New York County"
+      state: NY
+    - fips: "36085"
+      name: "Richmond County"
+      state: NY
+    - fips: "09001"
+      name: "Fairfield County"
+      state: CT
+    - fips: "34023"
+      name: "Middlesex County"
+      state: NJ
+    - fips: "42101"
+      name: "Philadelphia County"
+      state: PA
+    - fips: "42071"
+      name: "Lancaster County"
+      state: PA
+    - fips: "24031"
+      name: "Montgomery County"
+      state: MD
+    - fips: "24033"
+      name: "Prince George's County"
+      state: MD
+    - fips: "51013"
+      name: "Arlington County"
+      state: VA
+    - fips: "51059"
+      name: "Fairfax County"
+      state: VA
+    - fips: "51087"
+      name: "Henrico County"
+      state: VA
+    - fips: "51041"
+      name: "Chesterfield County"
+      state: VA
+    - fips: "51085"
+      name: "Hanover County"
+      state: VA
+    - fips: "51760"
+      name: "Richmond City"
+      state: VA
+    - fips: "11001"
+      name: "Washington DC"
+      state: DC
+
+keywords:
+  # Add school names, landmarks, and local identifiers below
+  - example: true  # remove this and add real keywords
+
+rss_sources: northeast_defaults  # references config/rss_sources/northeast_defaults.yaml
+
+digest:
+  default_time: "09:00"
+  timezone: "America/New_York"
+
+alert_tiers:
+  monitor_expiry_hours: 48
+  archive_after_days: 30
